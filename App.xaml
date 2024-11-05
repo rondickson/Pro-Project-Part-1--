@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PasswordManagerApp.App">
+    <Application.MainPage>
+        <Shell>
+            <ShellContent Title="Login" ContentTemplate="{DataTemplate views:LoginView}" />
+            <ShellContent Title="Password List" ContentTemplate="{DataTemplate views:PasswordListView}" />
+            <ShellContent Title="New Password" ContentTemplate="{DataTemplate views:NewPasswordView}" />
+        </Shell>
+    </Application.MainPage>
+</Application>

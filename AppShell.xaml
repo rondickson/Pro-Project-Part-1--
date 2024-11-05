@@ -1,0 +1,12 @@
+﻿using Microsoft.Maui.Controls;
+
+namespace PasswordManagerApp
+{
+    public partial class AppShell : Shell
+    {
+        public AppShell()
+        {
+            InitializeComponent(); // This should initialize your shell components correctly.
+        }
+    }
+}
